@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  random
+//  tutorials
 //
-//  Created by Patino, Juan D on 11/2/23.
+//  Created by Patino, Juan D on 4/24/24.
 //
 
 import SwiftUI
@@ -24,20 +24,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-var ages = [34, 28, 100]
-
-func foo(input: [Int]) -> Double {
-
-    var sum = 0
-
-        for value in input {
-
-        sum += value
-
-            }
-
-    return Double(sum)/Double(input.count)
-
-    }
-
-print(foo(input: ages))
